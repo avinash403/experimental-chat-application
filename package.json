@@ -1,0 +1,27 @@
+{
+  "name": "experimental-chat-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinash403/experimental-chat-application.git"
+  },
+  "author": "avinash kumar <ak403602@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinash403/experimental-chat-application/issues"
+  },
+  "homepage": "https://github.com/avinash403/experimental-chat-application#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
